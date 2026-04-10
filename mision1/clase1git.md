@@ -10,3 +10,7 @@
 `git clone` ->https://github.com/fernandogallegoh75/BootCampProfesG706.git para clonar unrepositorio en este caso me clone el de los orofes   
 `Set-ExecutionPolicy Unrestricted` -> debe ejecutar dentro de powershell como administrador y sirve para habilitar ejecución de comandos   
 ` ` `   -> una sola comilla la abre y la cierra para subrrallar 
+`python --version`--> nos sirve para verificar la version
+`Python -m venv env312` -> crear un entorno virtual en python 
+`dir` -> para consultar directorio
+activarlo `` env312\scripts\activate ``
