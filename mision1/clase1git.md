@@ -30,3 +30,5 @@ activarlo `` env312\scripts\activate ``` -> debe ejecutar dentro de powershell c
 `dir` -> para consultar directorio
 activarlo `` env312\scripts\activate ``
 `pip list` -> lista de libreria de python 
+`archivo .gitignore` -> nos ayuda todo lo que queremos ignorar como en este caso el programa python en el caso del estudiante en ese archivo se coloca el nombrede la carpeta `mision1/env312`
+`deactivate` -> para desactivar el entorno
