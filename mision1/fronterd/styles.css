@@ -7,4 +7,7 @@ body{
 .estilo_h1_v2 {
     color: rgb(204, 234, 253)
 }
-   
+.mi_imagen{
+    border-radius: 8px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 6);
+} 

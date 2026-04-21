@@ -6,4 +6,3 @@ nltk.download('punkt')
 
 instala librerias
 pip install scikit-learn nltk numpy gym==0.26.2 gym-notices" 
-´
