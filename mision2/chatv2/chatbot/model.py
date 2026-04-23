@@ -1,0 +1,9 @@
+import os  #trabaja con el sistema operativo
+import pickle #guarda y carga objetos de python en archivos
+from sklearn.feature_extraction.text import CountVectorizer
+# CountVectorizer convierte texto en un vector
+from sklearn.naive_bayes import MultinomialNB
+MODEL_DIR = "models"
+MODEL_PATH = os.path.join(MODEL_DIR, "model.pkl")
+VECTORIZER_PATH = os.path.join(MODEL_DIR,"vectorizer.pkl")
+ANSWER_PATH = os.path.join(MODEL_DIR,"answers.pkl")
