@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,32 +12,79 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .telefono-destacado {
+            /* Cambia el tamaño de la letra */
+            font-size: 28px;
+            /* Hace la letra más gruesa (negrita) */
+            font-weight: bold;
+            /* Color opcional para que resalte más */
+            color: #2c3e50;
+            /* Elimina el subrayado si es un enlace */
+            text-decoration: none;
+        }
+    </style>
 </head>
+
 <body>
-   
+
     <div class="container my-4">
-       <div class="row shadow-lg rounded-4 overflow-x-hidden">
-       <!-- Columna Izquierda-->
-        <div class="col-md-4 text-white bg-primary">
-            <header class="text-center">
-                <img src="imagen/foto_de_perfil.jpg"  class="rounded-circle border-4 img-fluid mb-4"
-                alt="foto de perfil" style="max-width: 40%; height: auto;">
-                
-              
-                <h2>Elizabeth Navia Mejia</h2>
-                <h5>Diseñadora Multimedial</h5>
-            </header>
+        <div class="row shadow-lg rounded-4 overflow-x-hidden">
+            <!-- Columna Izquierda-->
+            <div class="col-md-4 text-white bg-primary">
+                <header class="text-center">
+                    <img src="imagen/foto_de_perfil.jpg" class="rounded-circle border-4 img-fluid mb-4"
+                        alt="foto de perfil" style="max-width: 40%; height: auto;">
 
+
+                    <h2>Elizabeth Navia Mejia</h2>
+                    <h5>Diseñadora Multimedial</h5>
+                </header>
+
+                <section class="mb-3">
+                    <h5 class="fw-bold"> <a
+                            href="https://wa.me/573106650842?text=Hola Elizabeth me gustaría contactarte"
+                            class="btn-wsp" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a></i>Contacto</h5>
+                    <ul>
+                        <li>
+                            <a href="https://wa.me/573106650842?text=Hola Elizabeth me gustaría contactarte"
+                                class="text-white" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                +57 310 665 0842
+                            </a>
+                        </li>
+                        <i class="fa-solid fa-envelope"></i>
+                        </li>
+                        <a href="mailto:navializz.agosto@gmail.com" target="_blank" class="text-white">
+
+                            navializz.agosto@gmail.com
+                        </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/navializzagosto-sketch" targer="_blank" class="text-white">
+
+                                <i class="fab fa-github "></i>github.com/navializzagosto-sketch
+                            </a>
+                        </li>
+                        <!-- https://github.com/navializzagosto-sketch -->
+                    </ul>
+                </section>
+
+            </div>
+
+
+            <!-- Columna derecha-->
+            <div class="col-md-8 bg-secondary">
+                <p> col derecha</p>
+
+            </div>
         </div>
-
-        <!-- Columna derecha-->
-         <div class="col-md-8 bg-secondary">
-             <p> col derecha</p>
-
-
     </div>
 
 
     <script src="https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
 </body>
+
 </html>
